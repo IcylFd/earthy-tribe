@@ -56,7 +56,7 @@ export default function HornSpiral() {
         "
         >
           <LookbookParallaxImage
-            src="/assets/jewelry/horn1.jpg"
+            src="/assets/jewelry/horn1.JPG"
             className="h-full"
           />
         </section>
@@ -106,7 +106,7 @@ export default function HornSpiral() {
         "
         >
           <LookbookImage
-            src="/assets/jewelry/horn6.jpg"
+            src="/assets/jewelry/horn6.JPG"
             className="h-auto md:h-[70vh] aspect-[16/9] md:aspect-auto"
           />
         </section>
@@ -121,17 +121,17 @@ export default function HornSpiral() {
         >
           <div className="grid grid-cols-1 md:grid-cols-3 gap-10">
             <LookbookImage
-              src="/assets/jewelry/horn4-1.jpg"
+              src="/assets/jewelry/horn4-1.JPG"
               className="h-[60vh]"
             />
 
             <LookbookImage
-              src="/assets/jewelry/horn4.jpg"
+              src="/assets/jewelry/horn4.JPG"
               className="h-[60vh]"
             />
 
             <LookbookImage
-              src="/assets/jewelry/horn4-2.jpg"
+              src="/assets/jewelry/horn4-2.JPG"
               className="h-[60vh]"
             />
           </div>
@@ -147,7 +147,7 @@ export default function HornSpiral() {
         "
         >
           <LookbookImage
-            src="/assets/jewelry/horn5.jpg"
+            src="/assets/jewelry/horn5.JPG"
             className="w-full md:w-[420px] h-[70vh]"
           />
         </section>
@@ -160,7 +160,7 @@ export default function HornSpiral() {
         "
         >
           <LookbookParallaxImage
-            src="/assets/jewelry/horn9.jpg"
+            src="/assets/jewelry/horn9.JPG"
             className="h-full"
           />
         </section>

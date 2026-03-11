@@ -1,7 +1,7 @@
 /*
  * @Date: 2026-03-09 16:26:23
  * @LastEditors: lifangdi
- * @LastEditTime: 2026-03-11 16:13:23
+ * @LastEditTime: 2026-03-11 20:49:48
  */
 "use client";
 
@@ -32,7 +32,7 @@ export default function CosmicRevelry() {
         {/* PARALLAX HERO IMAGE */}
         <section className="h-[80vh] md:h-[100vh]">
           <LookbookParallaxImage
-            src="/assets/jewelry/cosmic1-1.jpg"
+            src="/assets/jewelry/cosmic1-1.JPG"
             className="h-full"
           />
         </section>
@@ -41,12 +41,12 @@ export default function CosmicRevelry() {
         <section className="py-20 px-6 md:px-20">
           <div className="grid md:grid-cols-2 gap-20">
             <LookbookImage
-              src="/assets/jewelry/cosmic3.jpg"
+              src="/assets/jewelry/cosmic3.JPG"
               className="h-[600px]"
             />
 
             <LookbookImage
-              src="/assets/jewelry/cosmic4.jpg"
+              src="/assets/jewelry/cosmic4.JPG"
               className="h-[600px]"
             />
           </div>
@@ -61,7 +61,7 @@ export default function CosmicRevelry() {
         </section> */}
         <section className="flex justify-center py-20 px-6 md:px-20">
           <LookbookVideo
-            src="/assets/video/cosmic4-1.mp4"
+            src="/assets/video/cosmic4-1.MP4"
             ratio="vertical"
             className="w-full md:w-auto h-[60vh] md:h-[70vh]"
           />
@@ -70,14 +70,14 @@ export default function CosmicRevelry() {
         {/* WIDE IMAGE */}
         <section className="py-20 px-4 md:px-20">
           <LookbookImage
-            src="/assets/jewelry/cosmic6-1.jpg"
+            src="/assets/jewelry/cosmic6-1.JPG"
             className="h-auto md:h-[70vh] aspect-[16/9] md:aspect-auto"
           />
         </section>
 
         <section className="flex justify-center py-20 px-4 md:px-20">
           <LookbookVideo
-            src="/assets/video/cosmic6-2.mp4"
+            src="/assets/video/cosmic6-2.MP4"
             ratio="vertical"
             className="h-[70vh]"
           />
@@ -86,15 +86,15 @@ export default function CosmicRevelry() {
         <section className="py-20 px-4 md:px-20">
           <div className="grid md:grid-cols-3 gap-10">
             <LookbookImage
-              src="/assets/jewelry/cosmic5.jpg"
+              src="/assets/jewelry/cosmic5.JPG"
               className="h-[420px]"
             />
             <LookbookImage
-              src="/assets/jewelry/cosmic5-1.jpg"
+              src="/assets/jewelry/cosmic5-1.JPG"
               className="h-[420px]"
             />
             <LookbookImage
-              src="/assets/jewelry/cosmic5-2.jpg"
+              src="/assets/jewelry/cosmic5-2.JPG"
               className="h-[420px]"
             />
           </div>
@@ -103,7 +103,7 @@ export default function CosmicRevelry() {
         {/* FINAL IMAGE */}
         <section className="h-[80vh] md:h-[100vh]">
           <LookbookParallaxImage
-            src="/assets/jewelry/cosmic2-1.jpg"
+            src="/assets/jewelry/cosmic2-1.JPG"
             className="h-full"
           />
         </section>

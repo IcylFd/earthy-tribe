@@ -7,22 +7,22 @@ import Link from "next/link";
 const collections = [
   {
     title: "Cosmic Revelry",
-    image: "/assets/jewelry/cosmic1.jpg",
+    image: "/assets/jewelry/cosmic1.JPG",
     href: "/handmade-jewelry/cosmic-revelry",
   },
   {
     title: "Hima Zen",
-    image: "/assets/jewelry/hima1.jpg",
+    image: "/assets/jewelry/hima1.JPG",
     href: "/handmade-jewelry/hima-zen",
   },
   {
     title: "Horn Spiral",
-    image: "/assets/jewelry/horn1.jpg",
+    image: "/assets/jewelry/horn1.JPG",
     href: "/handmade-jewelry/horn-spiral",
   },
   {
     title: "Earthy Gems",
-    image: "/assets/jewelry/gem1.jpg",
+    image: "/assets/jewelry/gem1.JPG",
     href: "/handmade-jewelry/earthy-gems",
   },
 ];

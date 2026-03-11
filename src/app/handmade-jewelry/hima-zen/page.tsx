@@ -33,7 +33,7 @@ export default function HimaZen() {
         {/* PARALLAX IMAGE */}
         <section className="h-[80vh] md:h-[100vh]">
           <LookbookParallaxImage
-            src="/assets/jewelry/hima1-2.jpg"
+            src="/assets/jewelry/hima1-2.JPG"
             className="h-full"
           />
         </section>
@@ -42,12 +42,12 @@ export default function HimaZen() {
         <section className="py-20 px-6 md:px-20">
           <div className="grid md:grid-cols-2 gap-20">
             <LookbookImage
-              src="/assets/jewelry/hima1-1.jpg"
+              src="/assets/jewelry/hima1-1.JPG"
               className="h-[600px]"
             />
 
             <LookbookImage
-              src="/assets/jewelry/hima1.jpg"
+              src="/assets/jewelry/hima1.JPG"
               className="h-[600px]"
             />
           </div>
@@ -56,7 +56,7 @@ export default function HimaZen() {
         {/* VERTICAL IMAGE */}
         <section className="py-20 flex justify-center">
           <LookbookImage
-            src="/assets/jewelry/hima4.jpg"
+            src="/assets/jewelry/hima4.JPG"
             className="w-[380px] h-[700px]"
           />
         </section>
@@ -65,17 +65,17 @@ export default function HimaZen() {
         <section className="py-20 px-4 md:px-20">
           <div className="grid md:grid-cols-3 gap-10">
             <LookbookImage
-              src="/assets/jewelry/hima6.jpg"
+              src="/assets/jewelry/hima6.JPG"
               className="h-[420px]"
             />
 
             <LookbookImage
-              src="/assets/jewelry/hima6-1.jpg"
+              src="/assets/jewelry/hima6-1.JPG"
               className="h-[420px]"
             />
 
             <LookbookImage
-              src="/assets/jewelry/hima6-2.jpg"
+              src="/assets/jewelry/hima6-2.JPG"
               className="h-[420px]"
             />
           </div>
@@ -83,7 +83,7 @@ export default function HimaZen() {
         {/* VIDEO BLOCK */}
         <section className="flex justify-center py-20 px-4 md:px-20">
           <LookbookVideo
-            src="/assets/video/hima1.mp4"
+            src="/assets/video/hima1.MP4"
             ratio="vertical"
             className="h-[70vh]"
           />
@@ -100,12 +100,12 @@ export default function HimaZen() {
         <section className="py-20 px-4 md:px-20">
           <div className="grid md:grid-cols-2 gap-20">
             <LookbookImage
-              src="/assets/jewelry/hima3.jpg"
+              src="/assets/jewelry/hima3.JPG"
               className="h-[600px]"
             />
 
             <LookbookImage
-              src="/assets/jewelry/hima3-1.jpg"
+              src="/assets/jewelry/hima3-1.JPG"
               className="h-[600px]"
             />
           </div>
