@@ -92,7 +92,7 @@ export default function HornSpiral() {
         "
         >
           <LookbookImage
-            src="/assets/jewelry/horn8.jpg"
+            src="/assets/jewelry/horn8.JPG"
             className="w-full md:w-[420px] h-[70vh]"
           />
         </section>
