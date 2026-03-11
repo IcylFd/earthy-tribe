@@ -4,6 +4,8 @@ import { useEffect } from "react";
 import Image from "next/image";
 import Lenis from "lenis";
 import { motion, useScroll, useTransform, useSpring } from "framer-motion";
+import Navbar from "@/components/Navbar";
+import InfinityLogo from "@/components/InfinityLogo";
 
 // --- Text Reveal ---
 const Reveal = ({ children, delay = 0 }: any) => (
@@ -20,29 +22,6 @@ const Reveal = ({ children, delay = 0 }: any) => (
     {children}
   </motion.div>
 );
-
-// --- Infinity Logo ---
-const InfinityLogo = ({ size = 80, color = "#E7C6A3" }) => {
-  return (
-    <svg
-      width={size}
-      height={size / 2}
-      viewBox="0 0 120 60"
-      fill="none"
-      xmlns="http://www.w3.org/2000/svg"
-    >
-      <path
-        d="M10 30
-           C10 10,50 10,60 30
-           C70 50,110 50,110 30
-           C110 10,70 10,60 30
-           C50 50,10 50,10 30"
-        stroke={color}
-        strokeWidth="3"
-      />
-    </svg>
-  );
-};
 
 // --- Character Reveal ---
 const TextReveal = ({ text }: { text: string }) => {
@@ -95,25 +74,7 @@ export default function Home() {
         className="fixed top-0 left-0 right-0 h-[2px] bg-[#C66B3D] origin-left z-[100]"
         style={{ scaleX: progress }}
       />
-
-      {/* NAV */}
-      <nav className="fixed top-0 left-0 w-full h-24 flex items-center px-10 z-50 mix-blend-exclusion">
-        <motion.div
-          style={{ opacity: showNavbarLogo }}
-          className="flex items-center"
-        >
-          <motion.div
-            animate={{ scale: [1, 1.05, 1] }}
-            transition={{
-              duration: 8,
-              repeat: Infinity,
-              ease: "easeInOut",
-            }}
-          >
-            <InfinityLogo size={90} color="#fff" />
-          </motion.div>
-        </motion.div>
-      </nav>
+      <Navbar showNavbarLogo={showNavbarLogo} />
 
       {/* HERO */}
       <section className="relative h-screen flex items-center justify-center overflow-hidden">
