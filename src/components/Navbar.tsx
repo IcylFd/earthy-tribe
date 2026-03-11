@@ -13,7 +13,9 @@ const navLinks = [
   { name: "Contact", href: "/contact" },
 ];
 
-export default function Navbar(props: { showNavbarLogo: boolean | number }) {
+export default function Navbar(props: {
+  showNavbarLogo: boolean | number | unknown;
+}) {
   const { showNavbarLogo = true } = props;
   const [open, setOpen] = useState(false);
 
