@@ -1,6 +1,6 @@
 "use client";
 
-import Carousel from "./Carousel";
+// import Carousel from "./Carousel";
 import { motion, useScroll, useTransform } from "framer-motion";
 import { useRef } from "react";
 
@@ -34,7 +34,7 @@ export default function JewelrySection({ id, title, desc, images }: Props) {
         <p className="max-w-xl mx-auto italic opacity-70">{desc}</p>
       </motion.div>
 
-      <Carousel images={images} />
+      {/* <Carousel images={images} /> */}
     </section>
   );
 }
