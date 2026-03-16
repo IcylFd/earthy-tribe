@@ -1,7 +1,7 @@
 /*
  * @Date: 2026-03-09 16:26:23
  * @LastEditors: lifangdi
- * @LastEditTime: 2026-03-16 19:48:00
+ * @LastEditTime: 2026-03-16 19:51:52
  */
 "use client";
 
@@ -111,7 +111,7 @@ export default function CosmicRevelry() {
 
         <section className="py-40 flex justify-center">
           <LookbookImage
-            src="/assets/jewelry/silver/9.jpg"
+            src="/assets/jewelry/silver/9.JPG"
             className="w-[380px] h-[700px]"
           />
         </section>
@@ -142,7 +142,7 @@ export default function CosmicRevelry() {
         {/* VERTICAL IMAGE */}
         <section className="py-40 flex justify-center">
           <LookbookImage
-            src="/assets/jewelry/silver/8.jpg"
+            src="/assets/jewelry/silver/8.JPG"
             className="w-[380px] h-[700px]"
           />
         </section>
