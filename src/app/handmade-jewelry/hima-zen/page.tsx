@@ -53,14 +53,6 @@ export default function HimaZen() {
           </div>
         </section>
 
-        {/* VERTICAL IMAGE */}
-        <section className="py-20 flex justify-center">
-          <LookbookImage
-            src="/assets/jewelry/hima4.JPG"
-            className="w-[380px] h-[700px]"
-          />
-        </section>
-
         {/* THREE IMAGE GRID */}
         <section className="py-20 px-4 md:px-20">
           <div className="grid md:grid-cols-3 gap-10">
@@ -93,6 +85,13 @@ export default function HimaZen() {
           <LookbookImage
             src="/assets/jewelry/hima8.jpg"
             className="h-auto md:h-[70vh] aspect-[16/9] md:aspect-auto"
+          />
+        </section>
+        {/* VERTICAL IMAGE */}
+        <section className="py-20 flex justify-center">
+          <LookbookImage
+            src="/assets/jewelry/hima9.JPG"
+            className="w-[380px] h-[700px]"
           />
         </section>
 

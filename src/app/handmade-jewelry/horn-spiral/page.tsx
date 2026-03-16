@@ -152,6 +152,32 @@ export default function HornSpiral() {
           />
         </section>
 
+        {/* THREE VERTICAL */}
+        <section
+          className="
+          snap-start
+          py-20
+          px-4 md:px-20
+        "
+        >
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-10">
+            <LookbookImage
+              src="/assets/jewelry/wood1.JPG"
+              className="h-[60vh]"
+            />
+
+            <LookbookImage
+              src="/assets/jewelry/wood1-1.JPG"
+              className="h-[60vh]"
+            />
+
+            <LookbookImage
+              src="/assets/jewelry/wood2.JPG"
+              className="h-[60vh]"
+            />
+          </div>
+        </section>
+
         {/* FINAL IMAGE */}
         <section
           className="
@@ -160,11 +186,24 @@ export default function HornSpiral() {
         "
         >
           <LookbookParallaxImage
-            src="/assets/jewelry/horn9.JPG"
+            src="/assets/jewelry/horn10.JPG"
             className="h-full"
           />
         </section>
-
+        {/* SINGLE VERTICAL */}
+        <section
+          className="
+          snap-start
+          flex justify-center
+          py-20
+          px-4
+        "
+        >
+          <LookbookImage
+            src="/assets/jewelry/horn5.JPG"
+            className="w-full md:w-[420px] h-[70vh]"
+          />
+        </section>
         {/* TWO VERTICAL */}
         <section
           className="

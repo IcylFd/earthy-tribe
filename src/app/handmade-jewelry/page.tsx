@@ -21,9 +21,9 @@ const collections = [
     href: "/handmade-jewelry/horn-spiral",
   },
   {
-    title: "Earthy Gems",
+    title: "Unbound Craft",
     image: "/assets/jewelry/gem1.JPG",
-    href: "/handmade-jewelry/earthy-gems",
+    href: "/handmade-jewelry/unbound-craft",
   },
 ];
 
