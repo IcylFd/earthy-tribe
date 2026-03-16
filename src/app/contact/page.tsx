@@ -1,7 +1,7 @@
 /*
  * @Date: 2026-03-11 17:04:34
  * @LastEditors: lifangdi
- * @LastEditTime: 2026-03-11 17:12:07
+ * @LastEditTime: 2026-03-16 20:00:34
  */
 "use client";
 
@@ -24,7 +24,7 @@ export default function Contact() {
         <section className="px-6 md:px-20">
           <div className="relative h-[40vh] md:h-[50vh] overflow-hidden rounded-xl">
             <Image
-              src="/assets/contact/contact.jpg"
+              src="/assets/contact/contact.JPG"
               fill
               alt="Contact"
               className="object-cover brightness-75"
